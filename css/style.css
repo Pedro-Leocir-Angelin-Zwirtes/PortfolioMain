@@ -254,7 +254,9 @@ header ul li a:hover {
     color: black;
 }
 
-
+.contatos ul {
+    padding: 0px
+}
 
 .contatos ul li {
     display: flex;
