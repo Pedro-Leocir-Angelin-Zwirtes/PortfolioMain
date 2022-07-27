@@ -195,7 +195,7 @@ header ul li a:hover {
 
 .progress_bar2::before {
     content: "";
-    width: 80%;
+    width: 95%;
     background-color: #025939;
 }
 
@@ -207,7 +207,7 @@ header ul li a:hover {
 
 .progress_bar4::before {
     content: "";
-    width: 78%;
+    width: 82%;
     background-color: #025939;
 }
 
@@ -232,6 +232,16 @@ header ul li a:hover {
     padding: 1em;
     background-color: rgb(36, 36, 36);
     text-align: center;
+}
+
+.card5:hover {
+    background-color: #025939;
+}
+
+
+.card5:hover > img {
+    transition: all 1s;
+    border: 3px solid white;
 }
 
 .card5 img {
@@ -277,7 +287,6 @@ header ul li a:hover {
 /*  Começando a sessão footer */
 
 footer {
-    background-color: black;
     color: white;
     text-align: center;
 }
