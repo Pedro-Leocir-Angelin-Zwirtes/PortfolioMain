@@ -6,6 +6,13 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+
+@media (max-width: 376px) {
+	.sec1_infos h2 {
+		font-size: 55px;
+	}
+}
+
 @media (max-width: 480px) {
 	.menu_names {
 		display: none;
@@ -16,8 +23,13 @@ body {
 	}
 
 	.menu_icons {
-		margin: 0 6em;
+		display: flex;
+		flex-direction: row;
+		margin: 0 auto;
 		padding: 0px;
+	}
+	header ul li {
+		margin: 0 1em;
 	}
 
 	.section1 {
@@ -26,7 +38,8 @@ body {
 	}
 
 	.grid_sec2 {
-		grid: none;
+		display: grid;
+		grid-template-columns: auto;
 		gap: 0px;
 	}
 
@@ -35,9 +48,8 @@ body {
 	}
 
 	.lindao img {
-		width: 300px;
-		height: auto;
-		margin-left: 2em
+		width: 100%;
+		height: 
 	}
 
 	.grid_sec3 {
