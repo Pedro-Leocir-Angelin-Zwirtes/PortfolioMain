@@ -55,6 +55,14 @@ header ul li a {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+header ul li a i:hover {
+    color: white;
+    transition: all 0.4s;
+}
+
+=======
+>>>>>>> ad9e7eb7688a57492a3c00e91b0c7d3d7fc8304f
 header ul li a:hover {
     color: #025939;
     transition: all 0.4s;
