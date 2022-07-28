@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 body {
@@ -54,4 +55,51 @@ body {
 		grid-template-columns: auto;
 	}
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    background-color: #0B0D0D;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width: 480px) {
+	header {
+		display: none;
+	}
+
+	.section1 {
+		text-align: center;
+	}
+
+	.grid_sec2 {
+		grid: none;
+		gap: 0px;
+	}
+
+	.grid_sec2 h2 {
+		text-align: center;
+	}
+
+	.lindao img {
+		width: 300px;
+		height: auto;
+		margin-left: 2em
+	}
+
+	.grid_sec3 {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2em;
+
+	}
+
+	.grid_sec5 {
+	    display: grid;
+	    grid-template-columns: auto;
+	    gap: 2em;
+	}
+
+>>>>>>> ad9e7eb7688a57492a3c00e91b0c7d3d7fc8304f
 }
