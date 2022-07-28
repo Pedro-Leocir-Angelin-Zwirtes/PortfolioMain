@@ -11,8 +11,8 @@ body {
 		display: none;
 	}
 
-	header .menu_icons {
-		margin: 0 5.5em;
+	.menu_icons {
+		margin: 0 6em;
 		padding: 0px;
 	}
 
