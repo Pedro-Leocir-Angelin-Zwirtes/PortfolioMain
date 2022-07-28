@@ -7,7 +7,11 @@ body {
 }
 
 @media (max-width: 480px) {
-	header .menu_names, h1 {
+	.menu_names {
+		display: none;
+	}
+
+	header h1 {
 		display: none;
 	}
 
