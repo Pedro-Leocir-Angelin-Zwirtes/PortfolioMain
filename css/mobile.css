@@ -7,13 +7,6 @@ body {
 }
 
 @media (max-width: 480px) {
-	.menu_names {
-		display: none;
-	}
-
-	header h1 {
-		display: none;
-	}
 
 	.menu_icons {
 		margin: 0 6em;
@@ -41,9 +34,9 @@ body {
 	}
 
 	.grid_sec3 {
-    display: grid;
-    grid-template-columns: auto;
-    gap: 2em;
+	 display: grid;
+	 grid-template-columns: auto;
+	 gap: 2em;
 
 	}
 
@@ -57,5 +50,3 @@ body {
 		display: grid;
 		grid-template-columns: auto;
 	}
-
-}
