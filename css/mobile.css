@@ -69,3 +69,28 @@ body {
 		display: grid;
 		grid-template-columns: auto;
 	}
+
+
+	.titulo, .contatos {
+		text-align: center;
+	}
+
+	.final_info {
+		display: none;
+	}
+
+	.text_for_me {
+		text-align: center;
+	}
+
+	.text_for_me p {
+		text-align: justify;
+	}
+
+	.hab_infos {
+		text-align: center;
+	}
+
+	.hab_infos p {
+		text-align: justify;
+	}
