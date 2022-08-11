@@ -266,8 +266,8 @@ header ul li a:hover {
 /*  Começando a sessão 6 */
 
 .section6 {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .contatos ul {
@@ -289,6 +289,47 @@ header ul li a:hover {
     margin-top: 0em;
     margin-bottom: 1em;
 }
+
+/*  Começando a sessão 7 */
+
+.section7 {
+    background-color: white;
+    color: black
+}
+
+.grid_sec7 {
+    margin-bottom: 4em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2em;
+}
+
+.card7 {
+    width: auto;
+    height: 250px;
+    background-color: gray;
+    position: relative;
+    border-radius: 2px;
+}
+
+.card7:hover {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.5);
+    transition: all 0.6s;
+}
+
+.ver_mais {
+    display: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    margin: -25px 0 0 -25px;
+}
+
+.card7:hover > .ver_mais {
+    display: block;
+}   
 
 /*  Começando a sessão footer */
 
