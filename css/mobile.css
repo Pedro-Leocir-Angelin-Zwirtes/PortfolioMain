@@ -94,3 +94,8 @@ body {
 	.hab_infos p {
 		text-align: justify;
 	}
+
+	.grid_sec7 {
+		display: grid;
+		grid-template-columns: auto;
+	}
