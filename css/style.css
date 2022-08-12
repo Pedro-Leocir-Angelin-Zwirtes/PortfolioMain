@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 body {
+    padding: 0px;
+    margin: 0px;
     background-color: #0B0D0D;
     color: white;
     font-family: 'Oswald', sans-serif;
@@ -354,6 +356,16 @@ header ul li a:hover {
 .card7:hover > .ver_mais {
     display: block;
 }   
+
+.em_breve {
+    display: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    margin: -25px 0 0 -25px;
+}
 
 /*  Começando a sessão footer */
 
